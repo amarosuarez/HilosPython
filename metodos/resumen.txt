@@ -1,0 +1,9 @@
+Método	¿Cuándo usarlo?
+----------------------------
+Thread	-> Ejecutar tareas en paralelo
+Lock	-> Evitar corrupción de datos en recursos compartidos
+Semaphore	-> Limitar accesos simultáneos a un recurso
+Condition	-> Coordinar hilos (productor-consumidor)
+Event	-> Señalizar entre hilos
+Barrier	-> Sincronizar hilos antes de continuar
+Timer	-> Ejecutar código después de un tiempo
